@@ -28,9 +28,20 @@ import type { AtivoLp, PublicoLp } from "./types";
 export function FormLead({
   publico,
   ativo,
+  lpOrigem = "site-nexamalls",
 }: {
   publico: PublicoLp;
   ativo: AtivoLp;
+  /**
+   * Qual LP publicada é esta, para o Zaper distinguir leads de conteúdo
+   * idêntico em domínios diferentes (ver o campo `lpOrigem` em `Lead`).
+   *
+   * As páginas do site institucional não passam esta prop — o padrão
+   * `"site-nexamalls"` já as identifica. Cada projeto gerado por
+   * `scripts/gerar-lp.mjs` passa o seu próprio valor, fixo, vindo de
+   * `@/config/lp`.
+   */
+  lpOrigem?: string;
 }) {
   const id = useId();
   const [nome, setNome] = useState("");
@@ -52,6 +63,7 @@ export function FormLead({
       qualificacaoLabel: campo.rotuloLead,
       publico: publico.slug,
       empreendimento: ativo.nome,
+      lpOrigem,
       origem: capturarOrigem(),
     };
   }

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { BarraFixa } from "@/components/layout/BarraFixa";
 import { PaginaLpTrafego } from "@/components/lp-trafego/PaginaLpTrafego";
-import { HUBS, hubDe } from "@/config/lp";
+import { HUBS, LP_ID, hubDe } from "@/config/lp";
 import { ativoDaLanding } from "@/lib/landing";
 
 /**
@@ -55,7 +55,7 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <PaginaLpTrafego ativo={ativo} publico={publico} />
+      <PaginaLpTrafego ativo={ativo} publico={publico} lpOrigem={LP_ID} />
       <BarraFixa
         whatsappNumero={ativo.whatsappNumero}
         whatsappMensagem={publico.whatsapp}

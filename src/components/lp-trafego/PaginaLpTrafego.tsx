@@ -35,9 +35,12 @@ import type { AtivoLp, PublicoLp } from "./types";
 export async function PaginaLpTrafego({
   ativo,
   publico,
+  lpOrigem,
 }: {
   ativo: AtivoLp;
   publico: PublicoLp;
+  /** Repassado ao formulário; ver a prop de mesmo nome em `FormLead`. */
+  lpOrigem?: string;
 }) {
   const [marcas, entregas, numeros] = await Promise.all([
     getMarcasColoridas(),
@@ -131,7 +134,7 @@ export async function PaginaLpTrafego({
         <ProvaNexa entregas={entregas} numeros={numeros} />
         <MarcasNexa marcas={marcas} />
         <Faq publico={publico} />
-        <FormLead publico={publico} ativo={ativo} />
+        <FormLead publico={publico} ativo={ativo} lpOrigem={lpOrigem} />
         <FechamentoLp publico={publico} ativo={ativo} />
       </main>
     </LpThemeProvider>

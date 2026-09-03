@@ -18,9 +18,21 @@ export type Lead = {
   qualificacao: string;
   /** como essa resposta é anunciada ao comercial: "Negócio", "Perfil" */
   qualificacaoLabel: string;
-  /** qual das landing pages originou o lead */
+  /** qual público da página originou o lead: "saude", "investidor", etc. */
   publico: string;
   empreendimento: string;
+  /**
+   * Qual LP, como projeto publicado, originou o lead — não confundir com
+   * `publico` acima.
+   *
+   * Existe porque conteúdo idêntico pode viver em domínios diferentes: a LP
+   * dedicada `lp-piazza-saude` e a página `/saude` de `lp-piazza-lojista`
+   * mostram a mesma copy (mesmo YAML, mesmo componente), mas são anúncios e
+   * domínios diferentes, e o Zaper precisa distinguir de qual dos dois o lead
+   * veio. Cada projeto gerado grava o seu próprio valor fixo em
+   * `src/config/lp/index.ts` — ver `scripts/gerar-lp.mjs`.
+   */
+  lpOrigem: string;
   /** parâmetros de campanha capturados da URL do anúncio */
   origem: Origem;
 };
@@ -35,7 +47,7 @@ export type Origem = {
   gclid?: string;
   /** identificador do clique no Meta Ads */
   fbclid?: string;
-  /** página em que o lead foi preenchido */
+  /** URL completa (com domínio) da página em que o lead foi preenchido */
   pagina?: string;
 };
 
@@ -55,11 +67,17 @@ const CHAVES_ORIGEM = [
  * O anúncio traz a marcação na query string; ela é lida no envio e viaja junto
  * do lead, para a atribuição já estar pronta no dia em que o CRM entrar. Roda
  * só no cliente — no servidor devolve objeto vazio.
+ *
+ * `pagina` é a URL inteira, com domínio, e não só o caminho: o caminho de uma
+ * LP dedicada de hub é sempre `/` (a página é a raiz do domínio dela), então
+ * sem o domínio o dado não diria qual das cinco LPs do Piazza é essa. `lpOrigem`
+ * (em `Lead`, montado por quem chama esta função) é a marcação pensada para
+ * isso; esta URL fica como registro bruto, útil para conferir o anúncio.
  */
 export function capturarOrigem(): Origem {
   if (typeof window === "undefined") return {};
   const params = new URLSearchParams(window.location.search);
-  const origem: Origem = { pagina: window.location.pathname };
+  const origem: Origem = { pagina: window.location.href };
   for (const chave of CHAVES_ORIGEM) {
     const valor = params.get(chave);
     if (valor) origem[chave] = valor;
@@ -96,20 +114,26 @@ export function linkLead(lead: Lead, whatsappNumero: string): string {
 }
 
 /**
- * Ponto único de integração com o CRM. Hoje não faz nada.
- *
- * Para ligar: troque o corpo por um `fetch` para uma route handler em
- * `src/app/api/`, que é quem deve falar com o CRM — assim a credencial fica no
- * servidor e não vai para o navegador. O objeto `Lead` já carrega nome,
- * telefone, e-mail, a qualificação do público de origem e a marcação de
- * campanha: é o payload completo, não falta nada a coletar.
+ * Ponto único de integração com o CRM: encaminha o lead para `/api/lead`, que
+ * é quem fala com o Zaper — assim a URL do webhook fica no servidor e nunca
+ * vai para o navegador. O objeto `Lead` já carrega nome, telefone, e-mail, a
+ * qualificação, qual LP originou o lead e a marcação de campanha: é o payload
+ * completo, não falta nada a coletar.
  *
  * Chamada sem `await` pelo formulário, de propósito. O envio do lead nunca pode
  * esperar rede: a janela do WhatsApp abre no mesmo gesto do clique (se abrisse
  * depois de um `await`, o bloqueador de pop-up do navegador a barraria) e o
- * registro corre por fora. Falha de CRM fica no console — perder o registro é
- * ruim, perder o lead é pior.
+ * registro corre por fora. `keepalive` mantém a requisição viva mesmo que a
+ * aba perca o foco para a janela do WhatsApp logo em seguida. Falha de CRM
+ * fica no console — perder o registro é ruim, perder o lead é pior.
  */
 export function registrarLead(lead: Lead): void {
-  void lead;
+  fetch("/api/lead", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(lead),
+    keepalive: true,
+  }).catch((erro) => {
+    console.error("Falha ao registrar lead", erro);
+  });
 }
