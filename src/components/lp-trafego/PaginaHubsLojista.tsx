@@ -37,6 +37,9 @@ export function PaginaHubsLojista({
   /* Sem `base`: neste projeto o domínio é do empreendimento, e o caminho
      de cada hub tem um nível só. No site ele é
      `/empreendimentos/<ativo>/lojista/<hub>`. */
+  /* E aqui a existência da landing de investidor não se deduz do CMS: ela é
+     outro domínio, configurado por variável de ambiente. */
+  const temInvestidor = Boolean(URL_INVESTIDOR);
 
   /**
    * O rótulo e a frase contam quantos hubs existem, em vez de dizer "três".
@@ -270,13 +273,18 @@ export function PaginaHubsLojista({
                 </WhatsAppCTA>
               </div>
             </Reveal>
+            {/* O convite só existe onde a rota existe. `/investidor` é gerada
+                apenas para quem tem `investidor` em LPS_TRAFEGO — hoje só o
+                Piazza. No Villa Viseu e no Uberlândia Shopping a Nexa
+                comercializa locação de unidade, não cota de ativo, e o link
+                fixo daqui levava o visitante a um 404. */}
             {/* O convite para a landing do investidor só aparece quando
                 existe uma: dentro do site as duas portas eram vizinhas e o
                 link era relativo, mas nem todo empreendimento tem a segunda.
                 Villa Viseu e Uberlândia Shopping operam cheios, e o que se
                 comercializa neles é locação de unidade, não cota. Oferecer a
                 porta ali levava a um 404. */}
-            {URL_INVESTIDOR ? (
+            {temInvestidor && (
               <Reveal delay={0.24}>
                 <p className="mt-8 text-[15px] text-white/60">
                   Você quer investir, e não operar?{" "}
@@ -293,7 +301,7 @@ export function PaginaHubsLojista({
                   .
                 </p>
               </Reveal>
-            ) : null}
+            )}
           </div>
         </SectionShell>
       </main>
