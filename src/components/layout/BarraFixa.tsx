@@ -15,8 +15,9 @@ import { waLink } from "@/lib/whatsapp";
  * seria ruído) e some quando o formulário está à vista, para não cobrir o campo
  * que a pessoa está preenchendo. No desktop não existe.
  *
- * Não entra na página de hubs: lá não há formulário, e o botão levaria a uma
- * âncora que não existe.
+ * Só entra em página com formulário: na página de hubs curta não há um, e o
+ * botão levaria a uma âncora que não existe. Na página de hubs completa
+ * (Piazza, desde 23/09/2026) o formulário existe, e a barra entra.
  */
 export function BarraFixa({
   whatsappNumero,

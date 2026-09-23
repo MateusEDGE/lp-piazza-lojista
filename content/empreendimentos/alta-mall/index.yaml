@@ -1,6 +1,6 @@
 nome: Alta Mall
-temLandingPage: false
-status: desenvolvimento
+temLandingPage: true
+status: comercializacao
 categoria: lojas-comerciais
 ordem: 19
 cidade: Uberlândia/MG
@@ -8,35 +8,107 @@ zona: sul
 tiposOperacao:
   - clinica
   - restaurante
+  - gastronomia
   - varejo
-atuacao: []
+  - academia
+  - servicos
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Morada da Colina, Uberlândia/MG
-resumoCard: Lojas comerciais em desenvolvimento em Uberlândia.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Dez lojas de 95 m² em dois pavimentos, num terreno de esquina na Rua Tobias Barreto, com
+  gastronomia, varejo e serviços de bairro.
+destaque: 10 lojas de 95 m² em terreno de esquina
+copy: >-
+  Terreno de esquina de 2.002 m² (44 x 45,5 m) na Rua Tobias Barreto com a Av. Augusto dos Anjos.
+  O projeto, em dois pavimentos, tem dez lojas de cerca de 95 m² no térreo, com fachada de vidro,
+  marquises e terraço comum descoberto, e 15 vagas de estacionamento dentro do lote.
+
+
+  Os renders mostram a vocação do conjunto: restaurantes, cervejaria e cafeteria numa praça de
+  mesas ao ar livre, com varejo, fitness e serviços completando o mix. Projeto arquitetônico de
+  julho de 2026, com 2.994 m² de área construída.
+ancoras: Gastronomia com mesas ao ar livre, varejo e fitness
+papelNexa: >-
+  Desenvolvimento do projeto, definição do mix e comercialização das dez lojas antes da obra.
 fichaTecnica:
-  terreno: ''
-  abl: ''
-  operacoes: ''
-  vagas: ''
-  mix: ''
-numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
-endereco: Rua Tobias Barreto, Morada da Colina, Uberlândia/MG
+  terreno: 2.002 m²
+  abl: 1.007 m²
+  operacoes: '10'
+  vagas: '15'
+  mix: Gastronomia, varejo, fitness e serviços de bairro
+  extras:
+    - label: Área construída
+      valor: 2.994 m²
+    - label: Lojas
+      valor: 94 a 101 m²
+numerosDestaque:
+  - valor: '10'
+    prefixo: ''
+    sufixo: ''
+    label: lojas de 95 m²
+  - valor: '2002'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de terreno em esquina
+  - valor: '2'
+    prefixo: ''
+    sufixo: ''
+    label: pavimentos com fachada de vidro
+  - valor: '15'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - categoria: Gastronomia
+    detalhe: Restaurantes, cervejaria e cafeteria em torno de uma praça de mesas ao ar livre
+  - categoria: Varejo e serviços
+    detalhe: Lojas de 95 m² com vitrine para as duas ruas da esquina
+  - categoria: Fitness e bem-estar
+    detalhe: Operação de recorrência diária para o bairro
+imagemCard: /images/empreendimentos/alta-mall.webp
+imagemHero: /images/empreendimentos/alta-mall-fachada.webp
+galeria:
+  - imagem: /images/empreendimentos/alta-mall.webp
+    legenda: A esquina vista do alto
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-fachada.webp
+    legenda: Fachada e estacionamento
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-frente.webp
+    legenda: Frente das lojas
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-praca.webp
+    legenda: Praça de mesas ao ar livre
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-restaurantes.webp
+    legenda: Restaurantes e acesso pela lateral
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-entrada.webp
+    legenda: Entrada e paisagismo
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-planta-terreo.webp
+    legenda: Planta do pavimento térreo
+    video: null
+  - imagem: /images/empreendimentos/alta-mall-planta-pavimento-superior.webp
+    legenda: Planta do pavimento superior
+    video: null
+endereco: Rua Tobias Barreto, esquina com Av. Augusto dos Anjos, Morada da Colina, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.939688,-48.279110&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo
 secoes:
-  mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
 whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Alta Mall.
 seo:
-  metaTitle: Alta Mall
-  metaDescription: Lojas comerciais em operação em Uberlândia.
+  metaTitle: Alta Mall, dez lojas em esquina na Morada da Colina
+  metaDescription: >-
+    Dez lojas de 95 m² em dois pavimentos com fachada de vidro, num terreno de esquina de 2.002 m²
+    em Uberlândia. Gastronomia ao ar livre, varejo, fitness e serviços.

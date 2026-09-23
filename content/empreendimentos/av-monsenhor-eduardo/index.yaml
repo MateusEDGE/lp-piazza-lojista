@@ -1,0 +1,114 @@
+nome: Mall Av. Monsenhor Eduardo
+temLandingPage: true
+status: desenvolvimento
+categoria: strip-mall
+ordem: 21
+cidade: Uberlândia/MG
+zona: leste
+tiposOperacao:
+  - academia
+  - fast-food
+  - farmacia
+  - banco
+  - conveniencia
+  - varejo
+  - restaurante
+  - servicos
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
+localizacao: Santa Rosa, Uberlândia/MG
+resumoCard: >-
+  Strip mall em terreno de esquina na Av. Monsenhor Eduardo, zona leste de Uberlândia, com
+  5.180 m² de ABL, 115 mil passantes por semana e baixa concorrência de grandes redes.
+destaque: 115 mil passantes por semana e mercado ainda inexplorado
+copy: >-
+  Terreno de esquina de 6.710 m² na Av. Monsenhor Eduardo, 2.005, no bairro Santa Rosa, com duplo
+  acesso pela avenida e pela Rua São Domingues. A via é o funil entre a malha urbana e o eixo da
+  BR-365, com 115 mil passantes por semana e uma malha residencial consolidada onde 80% da
+  população diurna é economicamente ativa.
+
+
+  O estudo prevê 5.181 m² de ABL em dois pavimentos: no térreo, 22 lojas satélites de 50 a 75 m²,
+  quatro âncoras de 302 a 400 m² e uma unidade para agência bancária; no primeiro, academia de
+  1.009 m² e uma âncora de 900 m². A renda média da região cresce 9,27% ao ano e a ausência de
+  grandes redes no entorno imediato garante liderança de mercado para as marcas pioneiras. O
+  cronograma previsto vai da estruturação à ocupação plena em 26 meses.
+ancoras: Academia de rede, drive-thru de alimentação rápida e farmácia de rede
+papelNexa: >-
+  Estudo de vocação e da área de influência, estudo de massa e viabilidade, estruturação da SCP,
+  assinatura das âncoras, gestão de obra e comercialização das lojas satélites.
+fichaTecnica:
+  terreno: 6.710 m²
+  abl: 5.181 m²
+  operacoes: '+28'
+  vagas: '54'
+  mix: Academia, alimentação rápida, farmácia, banco e lojas de conveniência
+  extras:
+    - label: Aproveitamento
+      valor: 77%
+    - label: Zoneamento
+      valor: SVP, CA 5
+numerosDestaque:
+  - valor: '115'
+    prefixo: ''
+    sufixo: ' mil'
+    label: passantes por semana
+  - valor: '5181'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de ABL em dois pavimentos
+  - valor: '80'
+    prefixo: ''
+    sufixo: '%'
+    label: da população diurna economicamente ativa
+  - valor: '9,27'
+    prefixo: ''
+    sufixo: '%'
+    label: de crescimento anual da renda média
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Lojas satélites
+    detalhe: 22 unidades de 50 m² (5 x 10 m), uma delas com 75 m²
+  - pavimento: Térreo
+    categoria: Âncoras
+    detalhe: Duas de 302 m² e duas de 400 m² com mezanino de 200 m², para farmácia de rede e drive-thru
+  - pavimento: Térreo
+    categoria: Agência bancária
+    detalhe: Unidade de 305 m² com acesso próprio
+  - pavimento: 1º Pavimento
+    categoria: Academia
+    detalhe: 1.009 m² (50 x 18 m) como âncora de fluxo recorrente, mais uma âncora de 900 m²
+imagemCard: /images/empreendimentos/av-monsenhor-eduardo.webp
+imagemHero: /images/empreendimentos/av-monsenhor-eduardo.webp
+galeria:
+  - imagem: /images/empreendimentos/av-monsenhor-eduardo.webp
+    legenda: Fachada para a Av. Monsenhor Eduardo
+    video: null
+  - imagem: /images/empreendimentos/av-monsenhor-eduardo-2.webp
+    legenda: Fachada ao entardecer
+    video: null
+  - imagem: /images/empreendimentos/av-monsenhor-eduardo-planta-terreo.webp
+    legenda: Implantação do térreo
+    video: null
+  - imagem: /images/empreendimentos/av-monsenhor-eduardo-planta-1-pavimento.webp
+    legenda: Implantação do 1º pavimento
+    video: null
+endereco: Av. Monsenhor Eduardo, 2005, Santa Rosa, Uberlândia/MG
+mapaEmbedUrl: https://www.google.com/maps?q=Av.+Monsenhor+Eduardo%2C+2005%2C+Santa+Rosa%2C+Uberl%C3%A2ndia%2C+MG&output=embed
+arte:
+  accentColor: bronze
+  heroVariant: imersivo
+secoes:
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Mall Av. Monsenhor Eduardo.
+seo:
+  metaTitle: Mall Av. Monsenhor Eduardo, strip mall na zona leste de Uberlândia
+  metaDescription: >-
+    Terreno de esquina de 6.710 m² com 5.181 m² de ABL, 115 mil passantes por semana e baixa
+    concorrência de grandes redes. Academia, drive-thru e farmácia como âncoras.

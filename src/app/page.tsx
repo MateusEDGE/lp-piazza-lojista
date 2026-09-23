@@ -1,60 +1,50 @@
 import type { Metadata } from "next";
+import { BarraFixa } from "@/components/layout/BarraFixa";
 import { PaginaHubsLojista } from "@/components/lp-trafego/PaginaHubsLojista";
-import { HUBS } from "@/config/lp";
+import { HUBS, LP_ID, PAGINA_LOJISTA } from "@/config/lp";
 import { ativoDaLanding } from "@/lib/landing";
 
 /**
- * A página de hubs, na raiz do domínio.
+ * A página de hubs, na raiz do domínio, como landing completa.
  *
- * É ela que o anúncio de lojista recebe. "Abrir uma operação" quer dizer coisas
- * diferentes para um restaurante, uma ótica e uma clínica, e mandar os três
- * para a mesma landing obrigaria a copy a falar com todo mundo, que é o mesmo
- * que não falar com ninguém. Aqui a pessoa se identifica em um card e cai numa
- * página escrita para ela.
- *
- * A página é curta de propósito: ela não argumenta, ela encaminha. Todo o
- * argumento está do outro lado do clique.
+ * É ela que o anúncio de lojista recebe. Quem já sabe a vocação clica no card
+ * do hub e cai na página escrita para ela; quem ainda não sabe desce, encontra
+ * os argumentos das três vocações e converte aqui, informando a vocação no
+ * formulário. A copy é `PAGINA_LOJISTA`, a mesma que roda no site.
  */
-
-/** O número por extenso, para a descrição não afirmar "três" onde são cinco. */
-const CARDINAL: Record<number, string> = {
-  2: "Duas",
-  3: "Três",
-  4: "Quatro",
-  5: "Cinco",
-  6: "Seis",
-};
+async function carregar() {
+  const ativo = await ativoDaLanding();
+  return { ativo, publico: PAGINA_LOJISTA(ativo) };
+}
 
 export async function generateMetadata(): Promise<Metadata> {
-  const ativo = await ativoDaLanding();
-  const vocacoes = HUBS.map((h) => h.categoria.toLowerCase());
-  const lista =
-    vocacoes.length > 1
-      ? `${vocacoes.slice(0, -1).join(", ")} e ${vocacoes.at(-1)}`
-      : vocacoes[0];
-  const titulo = `Abra a sua operação no ${ativo.nome} | Nexa Malls`;
-  const descricao = `${
-    CARDINAL[HUBS.length] ?? HUBS.length
-  } vocações no mesmo endereço: ${lista}. Escolha o hub da sua operação e veja as unidades disponíveis no ${ativo.nome}, em ${ativo.cidade}.`;
-
+  const { publico } = await carregar();
   return {
-    title: titulo,
-    description: descricao,
+    title: publico.seo.title,
+    description: publico.seo.description,
     openGraph: {
-      title: titulo,
-      description: descricao,
-      images: [
-        {
-          url: ativo.galeria[0]?.src ?? "/brand/og-default.png",
-          width: 1200,
-          height: 630,
-        },
-      ],
+      title: publico.seo.title,
+      description: publico.seo.description,
+      images: [{ url: publico.hero.imagem, width: 1200, height: 630 }],
     },
   };
 }
 
 export default async function Page() {
-  const ativo = await ativoDaLanding();
-  return <PaginaHubsLojista ativo={ativo} hubs={HUBS} />;
+  const { ativo, publico } = await carregar();
+  return (
+    <>
+      <PaginaHubsLojista
+        ativo={ativo}
+        hubs={HUBS}
+        publico={publico}
+        lpOrigem={LP_ID}
+      />
+      <BarraFixa
+        whatsappNumero={ativo.whatsappNumero}
+        whatsappMensagem={publico.whatsapp}
+        rotuloForm="Ver unidades"
+      />
+    </>
+  );
 }

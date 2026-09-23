@@ -1,6 +1,6 @@
 nome: Pátio Belvedere
 temLandingPage: false
-status: desenvolvimento
+status: comercializacao
 categoria: lojas-comerciais
 ordem: 17
 cidade: Uberlândia/MG
@@ -16,7 +16,7 @@ tiposOperacao:
   - varejo
 atuacao: []
 localizacao: Tubalina, Uberlândia/MG
-resumoCard: Lojas comerciais em desenvolvimento em Uberlândia.
+resumoCard: Lojas comerciais em comercialização em Uberlândia.
 destaque: ''
 copy: ''
 papelNexa: ''

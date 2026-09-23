@@ -103,6 +103,16 @@ export function hubDe(slug: string): HubLojista | null {
 }
 
 /**
+ * A copy da própria página de hubs, que é uma landing completa.
+ *
+ * Desde 23/09/2026 a raiz do domínio não é só a porta dos três hubs: ela tem
+ * hero com formulário, dor, benefícios de cada vocação, pavimentos, prova e
+ * fechamento, para servir de destino de anúncio a quem ainda não escolheu
+ * vocação. Os cards dos hubs continuam logo depois do hero.
+ */
+export { lojista as PAGINA_LOJISTA } from "./lojista";
+
+/**
  * A landing do investidor deste ativo, que mora em outro domínio.
  *
  * Dentro do site as duas portas eram vizinhas e o link entre elas era relativo.

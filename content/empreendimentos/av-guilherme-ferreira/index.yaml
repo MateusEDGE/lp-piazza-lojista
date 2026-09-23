@@ -1,7 +1,7 @@
-nome: Av. Guilherme Ferreira
-temLandingPage: false
+nome: Mall Av. Guilherme Ferreira
+temLandingPage: true
 status: desenvolvimento
-categoria: lojas-comerciais
+categoria: strip-mall
 ordem: 20
 cidade: Uberaba/MG
 zona: ''
@@ -18,34 +18,92 @@ tiposOperacao:
   - pet-shop
   - restaurante
   - supermercado
-atuacao: []
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Cidade Jardim, Uberaba/MG
-resumoCard: Lojas comerciais em desenvolvimento em Uberaba.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Strip mall em desenvolvimento na Av. Guilherme Ferreira, em Uberaba, com 3.100 m² de ABL,
+  farmácia, pet shop e academia como âncoras e 78 vagas.
+destaque: Farmácia, pet shop e academia como âncoras
+copy: >-
+  Terreno de 4.292 m² na Av. Guilherme Ferreira, em Uberaba, com 64 metros de frente. O estudo de
+  massa prevê 3.095 m² de ABL em dois pavimentos e 78 vagas de estacionamento, aproveitando 72% do
+  terreno.
+
+
+  No térreo, farmácia de 440 m² e pet shop de 400 m² ancoram dez lojas de 82 a 95 m². No primeiro
+  pavimento, uma academia de 1.206 m² e mais duas lojas de 88 m² completam o mix de conveniência e
+  serviços para a região.
+ancoras: Farmácia, pet shop e academia
+papelNexa: >-
+  Estudo de vocação, estudo de massa e viabilidade, estruturação do negócio e seleção das
+  operações antes da obra.
 fichaTecnica:
-  terreno: ''
-  abl: ''
-  operacoes: ''
-  vagas: ''
-  mix: ''
-numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
+  terreno: 4.292 m²
+  abl: 3.095 m²
+  operacoes: '15'
+  vagas: '78'
+  mix: Farmácia, pet shop, academia e lojas de conveniência
+  extras:
+    - label: Aproveitamento
+      valor: 72%
+    - label: Zoneamento
+      valor: UOP 6 (BO)
+numerosDestaque:
+  - valor: '3095'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de ABL em dois pavimentos
+  - valor: '15'
+    prefixo: ''
+    sufixo: ''
+    label: operações previstas
+  - valor: '78'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+  - valor: '64'
+    prefixo: ''
+    sufixo: ' m'
+    label: de frente para a avenida
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Farmácia e pet shop
+    detalhe: Âncoras de 440 m² e 400 m² com frente para a avenida
+  - pavimento: Térreo
+    categoria: Lojas satélites
+    detalhe: Nove lojas de 82,5 m² (5,5 x 15 m) e uma de 95 m²
+  - pavimento: 1º Pavimento
+    categoria: Academia
+    detalhe: 1.206 m² de âncora de fluxo recorrente, mais duas lojas de 88 m²
+imagemCard: /images/empreendimentos/av-guilherme-ferreira.webp
+imagemHero: /images/empreendimentos/av-guilherme-ferreira.webp
+galeria:
+  - imagem: /images/empreendimentos/av-guilherme-ferreira.webp
+    legenda: Fachada para a Av. Guilherme Ferreira
+    video: null
+  - imagem: /images/empreendimentos/av-guilherme-ferreira-planta-terreo.webp
+    legenda: Planta do térreo
+    video: null
+  - imagem: /images/empreendimentos/av-guilherme-ferreira-planta-1-pavimento.webp
+    legenda: Planta do 1º pavimento
+    video: null
 endereco: Av. Guilherme Ferreira, Cidade Jardim, Uberaba/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-19.762572,-47.935729&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo
 secoes:
-  mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
-whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse na Av. Guilherme Ferreira.
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Mall Av. Guilherme Ferreira.
 seo:
-  metaTitle: Av. Guilherme Ferreira
-  metaDescription: Lojas comerciais em operação em Uberaba.
+  metaTitle: Mall Av. Guilherme Ferreira, strip mall em desenvolvimento em Uberaba
+  metaDescription: >-
+    3.095 m² de ABL em dois pavimentos na Av. Guilherme Ferreira, Uberaba: farmácia, pet shop e
+    academia como âncoras, 12 lojas satélites e 78 vagas.

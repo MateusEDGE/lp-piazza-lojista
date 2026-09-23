@@ -1,18 +1,34 @@
 nome: Pátio Cajubá
-temLandingPage: false
-status: desenvolvimento
+temLandingPage: true
+status: comercializacao
 categoria: lojas-comerciais
 ordem: 18
 cidade: Uberlândia/MG
 zona: sul
 tiposOperacao:
   - restaurante
-atuacao: []
+  - gastronomia
+  - varejo
+  - servicos
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Vigilato Pereira, Uberlândia/MG
-resumoCard: Lojas comerciais em desenvolvimento em Uberlândia.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Lojas comerciais em comercialização no Vigilato Pereira, em dois pavimentos com fachada de
+  vidro e deck de gastronomia ao ar livre.
+destaque: Gastronomia ao ar livre em dois pavimentos de vidro
+copy: >-
+  Edificação comercial em dois pavimentos na Av. Eduardo Felice, no Vigilato Pereira, com fachada
+  envidraçada, totem de identificação na entrada e estacionamento em frente às lojas.
+
+
+  O deck coberto por guarda-sóis, com mesas voltadas para o jardim, dá ao conjunto a vocação de
+  gastronomia e convivência, com varejo e serviços completando o mix.
+ancoras: Gastronomia com deck ao ar livre, varejo e serviços
+papelNexa: >-
+  Desenvolvimento do projeto, definição do mix e comercialização das lojas antes da obra.
 fichaTecnica:
   terreno: ''
   abl: ''
@@ -20,10 +36,32 @@ fichaTecnica:
   vagas: ''
   mix: ''
 numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - categoria: Gastronomia
+    detalhe: Restaurantes e cafés com deck de mesas ao ar livre, voltado para o jardim
+  - categoria: Varejo
+    detalhe: Lojas com fachada de vidro e estacionamento na porta
+  - categoria: Serviços
+    detalhe: Operações de recorrência diária para o Vigilato Pereira e entorno
+imagemCard: /images/empreendimentos/patio-cajuba.webp
+imagemHero: /images/empreendimentos/patio-cajuba.webp
+galeria:
+  - imagem: /images/empreendimentos/patio-cajuba.webp
+    legenda: Fachada e estacionamento
+    video: null
+  - imagem: /images/empreendimentos/patio-cajuba-deck.webp
+    legenda: Deck de gastronomia
+    video: null
+  - imagem: /images/empreendimentos/patio-cajuba-totem.webp
+    legenda: Totem e entrada
+    video: null
+  - imagem: /images/empreendimentos/patio-cajuba-planta-terreo.webp
+    legenda: Planta do térreo
+    video: null
+  - imagem: /images/empreendimentos/patio-cajuba-planta-pavimento-superior.webp
+    legenda: Planta do pavimento superior
+    video: null
 endereco: Av. Eduardo Felice, Vigilato Pereira, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.930005,-48.275170&output=embed
 arte:
@@ -31,10 +69,12 @@ arte:
   heroVariant: imersivo
 secoes:
   mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
 whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Pátio Cajubá.
 seo:
-  metaTitle: Pátio Cajubá
-  metaDescription: Lojas comerciais em operação em Uberlândia.
+  metaTitle: Pátio Cajubá, lojas comerciais no Vigilato Pereira
+  metaDescription: >-
+    Lojas comerciais em dois pavimentos com fachada de vidro e deck de gastronomia ao ar livre,
+    na Av. Eduardo Felice, Uberlândia.

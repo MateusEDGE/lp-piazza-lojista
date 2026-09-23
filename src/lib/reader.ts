@@ -3,6 +3,7 @@ import path from "node:path";
 import { cache } from "react";
 import { createReader } from "@keystatic/core/reader";
 import keystaticConfig from "../../keystatic.config";
+import { compararEditorial } from "./empreendimentos";
 
 export const reader = createReader(process.cwd(), keystaticConfig);
 
@@ -14,7 +15,8 @@ export const getSite = cache(async () => {
 
 export const getEmpreendimentos = cache(async () => {
   const all = await reader.collections.empreendimentos.all();
-  return all.sort((a, b) => (a.entry.ordem ?? 0) - (b.entry.ordem ?? 0));
+  // fase primeiro (operação → comercialização → desenvolvimento), depois `ordem`
+  return all.sort((a, b) => compararEditorial(a.entry, b.entry));
 });
 
 /**

@@ -1,5 +1,5 @@
-nome: Av. Francisco Galassi
-temLandingPage: false
+nome: Mall Av. Francisco Galassi
+temLandingPage: true
 status: desenvolvimento
 categoria: lojas-comerciais
 ordem: 16
@@ -9,34 +9,90 @@ tiposOperacao:
   - clinica
   - farmacia
   - restaurante
-atuacao: []
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Morada da Colina, Uberlândia/MG
-resumoCard: Lojas comerciais em desenvolvimento em Uberlândia.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Quatro lojas de rua na base de uma torre residencial na Francisco Galassi, Morada da Colina,
+  com 61 a 97 m² cada e público cativo dos moradores.
+destaque: 4 lojas de rua na base de uma torre residencial
+copy: >-
+  Terreno de 2.053 m² na Francisco Galassi, 1.428, na Morada da Colina, um dos eixos residenciais
+  de maior renda de Uberlândia. O projeto combina uma torre residencial com quatro lojas no
+  pavimento térreo, de 61, 82, 83 e 97 m², e 11 vagas de estacionamento.
+
+
+  As lojas nascem com frente para a rua e com o público cativo da própria torre, o que favorece
+  operações de recorrência diária: clínica, farmácia, café e restaurante. Estudo preliminar de
+  fachada, sujeito a alterações.
+ancoras: Operações de recorrência para o bairro e para a torre
+papelNexa: >-
+  Desenvolvimento e comercialização das lojas do térreo, com definição do mix adequado ao perfil
+  da torre e do entorno.
 fichaTecnica:
-  terreno: ''
-  abl: ''
-  operacoes: ''
-  vagas: ''
-  mix: ''
-numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
-endereco: Av. Francisco Galassi, Morada da Colina, Uberlândia/MG
-mapaEmbedUrl: https://www.google.com/maps?q=Av.+Francisco+Galassi%2C+Morada+da+Colina%2C+Uberl%C3%A2ndia%2C+MG&output=embed
+  terreno: 2.053 m²
+  abl: 323 m²
+  operacoes: '4'
+  vagas: '11'
+  mix: Clínica, farmácia, café e restaurante
+  extras:
+    - label: Lojas
+      valor: 61 a 97 m²
+numerosDestaque:
+  - valor: '4'
+    prefixo: ''
+    sufixo: ''
+    label: lojas de rua no térreo
+  - valor: '97'
+    prefixo: 'até '
+    sufixo: ' m²'
+    label: por unidade
+  - valor: '11'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+  - valor: '2053'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de terreno
+tituloMix: Lojas do térreo
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Lojas de rua
+    detalhe: Quatro unidades de 61, 82, 83 e 97 m², com vitrine para a rua e acesso independente
+imagemCard: /images/empreendimentos/av-francisco-galassi.webp
+imagemHero: /images/empreendimentos/av-francisco-galassi.webp
+galeria:
+  - imagem: /images/empreendimentos/av-francisco-galassi.webp
+    legenda: Estudo conceitual de fachada
+    video: null
+  - imagem: /images/empreendimentos/av-francisco-galassi-2.webp
+    legenda: A torre vista do jardim
+    video: null
+  - imagem: /images/empreendimentos/av-francisco-galassi-3.webp
+    legenda: Vista aos redores
+    video: null
+  - imagem: /images/empreendimentos/av-francisco-galassi-4.webp
+    legenda: Vista lateral e lojas do térreo
+    video: null
+  - imagem: /images/empreendimentos/av-francisco-galassi-planta-terreo.webp
+    legenda: Planta baixa do térreo, com as 4 lojas
+    video: null
+endereco: Rua Francisco Galassi, 1428, Morada da Colina, Uberlândia/MG
+mapaEmbedUrl: https://www.google.com/maps?q=Rua+Francisco+Galassi%2C+1428%2C+Morada+da+Colina%2C+Uberl%C3%A2ndia%2C+MG&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo
 secoes:
-  mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
-whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse na Av. Francisco Galassi.
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse nas lojas do Mall Av. Francisco Galassi.
 seo:
-  metaTitle: Av. Francisco Galassi
-  metaDescription: Lojas comerciais em operação em Uberlândia.
+  metaTitle: Mall Av. Francisco Galassi, lojas de rua na Morada da Colina
+  metaDescription: >-
+    Quatro lojas de 61 a 97 m² no térreo de uma torre residencial na Francisco Galassi, 1.428,
+    Uberlândia, com 11 vagas e público cativo dos moradores.

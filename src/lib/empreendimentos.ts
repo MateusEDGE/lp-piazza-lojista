@@ -16,6 +16,27 @@ export const STATUS_LABEL: Record<string, string> = {
 /** Ordem editorial do ciclo de vida: da entrega para trás. */
 export const STATUS_ORDER = ["operacao", "comercializacao", "desenvolvimento"] as const;
 
+/** Posição da fase em STATUS_ORDER; fase desconhecida vai para o fim. */
+export function indiceFase(status: string): number {
+  const i = (STATUS_ORDER as readonly string[]).indexOf(status);
+  return i === -1 ? STATUS_ORDER.length : i;
+}
+
+/**
+ * A ordem editorial do portfólio inteiro: primeiro os ativos em operação,
+ * depois os em comercialização, por fim os em desenvolvimento (pedido do
+ * Mateus em 22/09/2026); dentro de cada fase vale o campo `ordem` do CMS.
+ *
+ * É a ordem que o leitor devolve, e a que a home usa: nenhuma página deve
+ * reordenar por `ordem` sozinha, senão as fases voltam a se misturar.
+ */
+export function compararEditorial(
+  a: { status: string; ordem?: number | null },
+  b: { status: string; ordem?: number | null },
+): number {
+  return indiceFase(a.status) - indiceFase(b.status) || (a.ordem ?? 99) - (b.ordem ?? 99);
+}
+
 /** Cor do marcador de status — único ponto onde o ciclo ganha cor. */
 export const STATUS_DOT: Record<string, string> = {
   operacao: "bg-emerald-400",

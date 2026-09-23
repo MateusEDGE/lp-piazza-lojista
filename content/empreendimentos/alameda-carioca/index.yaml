@@ -1,0 +1,110 @@
+nome: Mall Alameda Carioca
+temLandingPage: true
+status: desenvolvimento
+categoria: strip-mall
+ordem: 22
+cidade: Uberlândia/MG
+zona: ''
+tiposOperacao:
+  - farmacia
+  - restaurante
+  - academia
+  - varejo
+  - servicos
+  - conveniencia
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
+localizacao: Rua da Carioca, Uberlândia/MG
+resumoCard: >-
+  Strip mall em desenvolvimento na Rua da Carioca, Uberlândia, com 2.450 m² de ABL, praça no
+  térreo, academia no pavimento superior e 112 vagas.
+destaque: 97% de aproveitamento, com 112 vagas em subsolo
+copy: >-
+  Terreno de 2.496 m² na Rua da Carioca, em Setor de Vias Secundárias, com acesso de veículos e
+  de serviço pela Rua Moreira de Oliveira. O estudo de massa chega a 2.447 m² de ABL, 97% da área
+  do terreno, com 112 vagas de estacionamento, 95 delas em subsolo.
+
+
+  No térreo, uma praça reúne farmácia de 366 m², restaurante de 204 m², uma loja de 184 m² e seis
+  lojas de 60 m². No primeiro pavimento, uma academia de 1.332 m² ancora o fluxo recorrente do
+  conjunto.
+ancoras: Farmácia, restaurante e academia
+papelNexa: >-
+  Estudo de vocação, estudo de massa e viabilidade, estruturação do negócio e seleção das
+  operações antes da obra.
+fichaTecnica:
+  terreno: 2.496 m²
+  abl: 2.447 m²
+  operacoes: '10'
+  vagas: '112'
+  mix: Farmácia, gastronomia, academia e lojas de conveniência
+  extras:
+    - label: Aproveitamento
+      valor: 97%
+numerosDestaque:
+  - valor: '2447'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de ABL em dois pavimentos
+  - valor: '112'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+  - valor: '97'
+    prefixo: ''
+    sufixo: '%'
+    label: de aproveitamento do terreno
+  - valor: '1332'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de academia como âncora
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Farmácia e restaurante
+    detalhe: Âncoras de 366 m² e 204 m² em torno da praça
+  - pavimento: Térreo
+    categoria: Lojas satélites
+    detalhe: Uma loja de 184 m² (10,5 x 17,6 m) e seis de 60 m² (5,3 x 11,7 m)
+  - pavimento: 1º Pavimento
+    categoria: Academia
+    detalhe: 1.332 m² de âncora de fluxo recorrente
+imagemCard: /images/empreendimentos/alameda-carioca.webp
+imagemHero: /images/empreendimentos/alameda-carioca.webp
+galeria:
+  - imagem: /images/empreendimentos/alameda-carioca.webp
+    legenda: Fachada para a Rua da Carioca
+    video: null
+  - imagem: /images/empreendimentos/alameda-carioca-2.webp
+    legenda: Praça e lojas do térreo
+    video: null
+  - imagem: /images/empreendimentos/alameda-carioca-planta-terreo.webp
+    legenda: Planta do térreo
+    video: null
+  - imagem: /images/empreendimentos/alameda-carioca-terreo-vista-superior.webp
+    legenda: Térreo visto de cima
+    video: null
+  - imagem: /images/empreendimentos/alameda-carioca-planta-1-pavimento.webp
+    legenda: Planta do 1º pavimento
+    video: null
+  - imagem: /images/empreendimentos/alameda-carioca-planta-subsolo.webp
+    legenda: Planta do subsolo (95 vagas)
+    video: null
+endereco: Rua da Carioca, Uberlândia/MG
+mapaEmbedUrl: https://www.google.com/maps?q=Rua+da+Carioca%2C+Uberl%C3%A2ndia%2C+MG&output=embed
+arte:
+  accentColor: bronze
+  heroVariant: imersivo
+secoes:
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Mall Alameda Carioca.
+seo:
+  metaTitle: Mall Alameda Carioca, strip mall em desenvolvimento em Uberlândia
+  metaDescription: >-
+    2.447 m² de ABL na Rua da Carioca, Uberlândia: farmácia, restaurante e lojas em torno de uma
+    praça, academia de 1.332 m² no pavimento superior e 112 vagas.

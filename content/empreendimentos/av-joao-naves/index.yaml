@@ -1,5 +1,5 @@
-nome: Av. João Naves
-temLandingPage: false
+nome: Mall Av. João Naves
+temLandingPage: true
 status: desenvolvimento
 categoria: strip-mall
 ordem: 8
@@ -17,34 +17,102 @@ tiposOperacao:
   - pet-shop
   - restaurante
   - supermercado
-atuacao: []
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Santa Mônica, Uberlândia/MG
-resumoCard: Strip mall em desenvolvimento em Uberlândia.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Strip mall em desenvolvimento na Av. João Naves de Ávila, na rota do Center Shopping e da
+  Universidade Federal, com 4.500 m² de ABL e 206 mil passantes por semana.
+destaque: 206 mil passantes por semana na porta
+copy: >-
+  Terreno de 6.000 m² na Av. João Naves de Ávila, uma das vias de maior exposição contínua de
+  Uberlândia, na rota principal para o Center Shopping e a Universidade Federal. O estudo de massa
+  prevê 4.503 m² de ABL em dois pavimentos, com 140 vagas de estacionamento no térreo.
+
+
+  A área de influência cresce 2% ao ano, tem 40% da população entre 25 e 49 anos e renda média
+  domiciliar projetada em R$ 8.573 para 2026. A vocação apontada pelo estudo é a de operações que
+  unem agilidade, conveniência e serviços essenciais: varejo express e supermercado de
+  proximidade, fast-food e restaurantes, e um hub de saúde, bem-estar e conveniência.
+ancoras: Supermercado de proximidade, academia e farmácia de rede
+papelNexa: >-
+  Estudo de vocação e da área de influência, estudo de massa e viabilidade, estruturação do
+  negócio e seleção das operações antes da obra.
 fichaTecnica:
-  terreno: ''
-  abl: ''
-  operacoes: ''
-  vagas: ''
-  mix: ''
-numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
+  terreno: 6.000 m²
+  abl: 4.503 m²
+  operacoes: '+12'
+  vagas: '140'
+  mix: Varejo express, alimentação e hub de saúde e conveniência
+  extras:
+    - label: Aproveitamento
+      valor: 75%
+    - label: Zoneamento
+      valor: ZM / SVP
+numerosDestaque:
+  - valor: '206'
+    prefixo: ''
+    sufixo: ' mil'
+    label: passantes por semana
+  - valor: '4503'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de ABL em dois pavimentos
+  - valor: '140'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+  - valor: '6000'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de terreno
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Varejo express e supermercado
+    detalhe: Duas âncoras, de 978 m² e 750 m², para as compras do dia a dia
+  - pavimento: Térreo
+    categoria: Alimentação
+    detalhe: Fast-food e restaurante convertendo o fluxo da avenida em demanda constante
+  - pavimento: Térreo
+    categoria: Lojas satélites
+    detalhe: Oito lojas de 60 m² (5 x 12 m) e uma de 180 m²
+  - pavimento: 1º Pavimento
+    categoria: Saúde e bem-estar
+    detalhe: Âncora de 1.813 m² para academia ou hub de saúde, atendendo o público 60+ e o de 35 a 49
+imagemCard: /images/empreendimentos/av-joao-naves.webp
+imagemHero: /images/empreendimentos/av-joao-naves.webp
+galeria:
+  - imagem: /images/empreendimentos/av-joao-naves.webp
+    legenda: Fachada principal
+    video: null
+  - imagem: /images/empreendimentos/av-joao-naves-2.webp
+    legenda: Vista da esquina
+    video: null
+  - imagem: /images/empreendimentos/av-joao-naves-3.webp
+    legenda: Estacionamento e lojas
+    video: null
+  - imagem: /images/empreendimentos/av-joao-naves-planta-terreo.webp
+    legenda: Planta do térreo (proposta sem drive-thru)
+    video: null
+  - imagem: /images/empreendimentos/av-joao-naves-planta-1-pavimento.webp
+    legenda: Planta do 1º pavimento (proposta sem drive-thru)
+    video: null
 endereco: Av. João Naves de Ávila, Santa Mônica, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.929708,-48.241770&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo
 secoes:
-  mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
-whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse na Av. João Naves.
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Mall Av. João Naves.
 seo:
-  metaTitle: Av. João Naves
-  metaDescription: Strip mall em desenvolvimento em Uberlândia.
+  metaTitle: Mall Av. João Naves, strip mall em desenvolvimento em Uberlândia
+  metaDescription: >-
+    Terreno de 6.000 m² na Av. João Naves de Ávila, com 4.503 m² de ABL, 140 vagas e 206 mil
+    passantes por semana. Vocação para varejo express, alimentação e saúde.

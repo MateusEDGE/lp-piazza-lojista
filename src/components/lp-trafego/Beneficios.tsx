@@ -16,15 +16,22 @@ import type { PublicoLp } from "./types";
 export function Beneficios({
   publico,
   tone = "none",
+  semFio = false,
 }: {
   publico: PublicoLp;
   tone?: "none" | "tint";
+  /**
+   * Sem o fio de luz do topo. Na página de lojista completa esta seção vem
+   * logo depois da seção de hubs, recortada em diagonal no rodapé: o fio
+   * reto atravessaria a cunha e desmentiria o corte.
+   */
+  semFio?: boolean;
 }) {
   const { beneficios } = publico;
   const escuro = tone === "none";
 
   return (
-    <SectionShell tone={tone} compacto>
+    <SectionShell tone={tone} compacto semFio={semFio}>
       <Reveal>
         <p className="label-editorial text-lp-accent">{beneficios.rotulo}</p>
         <h2

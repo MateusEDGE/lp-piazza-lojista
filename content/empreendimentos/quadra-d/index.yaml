@@ -1,0 +1,126 @@
+nome: Quadra D
+temLandingPage: true
+status: desenvolvimento
+categoria: open-mall
+ordem: 23
+cidade: Uberlândia/MG
+zona: leste
+tiposOperacao:
+  - gastronomia
+  - restaurante
+  - varejo
+  - servicos
+  - conveniencia
+  - entretenimento
+  - escritorio
+  - sala-comercial
+atuacao:
+  - masterplan
+  - desenvolvimento
+localizacao: Granja Marileusa, Uberlândia/MG
+resumoCard: >-
+  Quadra inteira de 19.784 m² no bairro planejado Granja Marileusa, ao lado da Praça das Águas e
+  do Villa Viseu, com sete lotes de fachada ativa em torno de uma praça central aberta.
+destaque: Centro de quadra público com fachadas ativas e torres em sete lotes
+copy: >-
+  Quadra de 19.784 m² no bairro planejado Granja Marileusa, em Uberlândia, entre a Av. Maria Silva,
+  a Av. Floriano Peixoto e a Rua Lapa do Lobo, em continuidade visual com a Praça das Águas e
+  vizinha ao Villa Viseu. O masterplan fraciona a quadra em sete lotes, todos com térreo comercial,
+  embasamento de 14 m e torres escalonadas, ligados por um centro de quadra aberto ao público.
+
+
+  O miolo vence 4,5 m de desnível entre a avenida e a rua com rampas, escadarias e platôs
+  gramados, cercados por comércio e serviço de fachada ativa. Um design code define ruas internas,
+  transparência mínima das fachadas, marquises contínuas e terraços de uso público sobre o
+  embasamento, para bares, restaurantes e convivência.
+ancoras: Gastronomia, serviços e convivência
+papelNexa: >-
+  Masterplan da quadra com o .a Arquitetos Associados, fracionamento dos lotes, design code das
+  fachadas e do centro de quadra e estruturação do negócio para os incorporadores de cada lote.
+fichaTecnica:
+  terreno: 19.784 m²
+  abl: ''
+  operacoes: ''
+  vagas: ''
+  mix: Comércio, serviços e gastronomia no térreo, torres sobre embasamento de 14 m
+  extras:
+    - label: Lotes
+      valor: '7'
+    - label: Área dos lotes
+      valor: 11.241 m²
+    - label: Embasamento
+      valor: 14 m
+numerosDestaque:
+  - valor: '19784'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de quadra no bairro planejado
+  - valor: '7'
+    prefixo: ''
+    sufixo: ''
+    label: lotes com térreo comercial
+  - valor: '70'
+    prefixo: ''
+    sufixo: '%'
+    label: de transparência nas fachadas para o centro da quadra
+  - valor: '14'
+    prefixo: ''
+    sufixo: ' m'
+    label: de embasamento com fachada ativa
+tituloMix: Programa previsto para a quadra
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Comércio e serviços de fachada ativa
+    detalhe: Lojas voltadas para a calçada e para o centro da quadra, com ruas internas nos lotes de mais de 30 m de testada
+  - pavimento: Centro de quadra
+    categoria: Praça pública e gastronomia
+    detalhe: Esplanadas em níveis, lago naturalizado, mural artístico e um instituto do bairro sob laje jardim
+  - pavimento: Embasamento e terraços
+    categoria: Convivência sobre o embasamento
+    detalhe: Terraços de uso público a 14 m, com bares, restaurantes e piscinas ligados ao centro da quadra
+  - pavimento: Torres
+    categoria: Torres escalonadas
+    detalhe: Sete lotes de 800 a 2.549 m² com acesso às torres pelo térreo comercial
+imagemCard: /images/empreendimentos/quadra-d.webp
+imagemHero: /images/empreendimentos/quadra-d.webp
+galeria:
+  - imagem: /images/empreendimentos/quadra-d.webp
+    legenda: Vista aérea do conjunto
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-2.webp
+    legenda: Instituto do bairro sob a laje jardim
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-3.webp
+    legenda: Centro de quadra ao entardecer
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-4.webp
+    legenda: Trecho da rampa e lago naturalizado
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-5.webp
+    legenda: Chegada pela rotatória
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-planta-fracionamento.webp
+    legenda: Planta de fracionamento dos 7 lotes
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-planta-centro-de-quadra.webp
+    legenda: Planta do centro de quadra
+    video: null
+  - imagem: /images/empreendimentos/quadra-d-centro-de-quadra-vista-superior.webp
+    legenda: Centro de quadra visto de cima
+    video: null
+endereco: Av. Maria Silva Garcia, Granja Marileusa, Uberlândia/MG
+mapaEmbedUrl: https://www.google.com/maps?q=R.+Lapa+do+Lobo%2C+Granja+Marileusa%2C+Uberl%C3%A2ndia%2C+MG&output=embed
+arte:
+  accentColor: petroleo
+  heroVariant: imersivo
+secoes:
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse na Quadra D.
+seo:
+  metaTitle: Quadra D, masterplan no Granja Marileusa em Uberlândia
+  metaDescription: >-
+    Quadra de 19.784 m² no bairro planejado Granja Marileusa, Uberlândia: sete lotes com térreo
+    comercial e torres em torno de um centro de quadra público com fachadas ativas.

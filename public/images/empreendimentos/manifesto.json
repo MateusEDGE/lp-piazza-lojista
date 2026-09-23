@@ -1,87 +1,235 @@
 [
   {
+    "slug": "alameda-carioca-2",
+    "arquivo": "alameda-carioca-2.webp"
+  },
+  {
+    "slug": "alameda-carioca-planta-1-pavimento",
+    "arquivo": "alameda-carioca-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "alameda-carioca-planta-subsolo",
+    "arquivo": "alameda-carioca-planta-subsolo.webp"
+  },
+  {
+    "slug": "alameda-carioca-planta-terreo",
+    "arquivo": "alameda-carioca-planta-terreo.webp"
+  },
+  {
+    "slug": "alameda-carioca-terreo-vista-superior",
+    "arquivo": "alameda-carioca-terreo-vista-superior.webp"
+  },
+  {
+    "slug": "alameda-carioca",
+    "arquivo": "alameda-carioca.webp"
+  },
+  {
+    "slug": "alta-mall-entrada",
+    "arquivo": "alta-mall-entrada.webp"
+  },
+  {
+    "slug": "alta-mall-fachada",
+    "arquivo": "alta-mall-fachada.webp"
+  },
+  {
+    "slug": "alta-mall-frente",
+    "arquivo": "alta-mall-frente.webp"
+  },
+  {
+    "slug": "alta-mall-planta-pavimento-superior",
+    "arquivo": "alta-mall-planta-pavimento-superior.webp"
+  },
+  {
+    "slug": "alta-mall-planta-terreo",
+    "arquivo": "alta-mall-planta-terreo.webp"
+  },
+  {
+    "slug": "alta-mall-praca",
+    "arquivo": "alta-mall-praca.webp"
+  },
+  {
+    "slug": "alta-mall-restaurantes",
+    "arquivo": "alta-mall-restaurantes.webp"
+  },
+  {
+    "slug": "alta-mall",
+    "arquivo": "alta-mall.webp"
+  },
+  {
+    "slug": "av-francisco-galassi-2",
+    "arquivo": "av-francisco-galassi-2.webp"
+  },
+  {
+    "slug": "av-francisco-galassi-3",
+    "arquivo": "av-francisco-galassi-3.webp"
+  },
+  {
+    "slug": "av-francisco-galassi-4",
+    "arquivo": "av-francisco-galassi-4.webp"
+  },
+  {
+    "slug": "av-francisco-galassi-planta-terreo",
+    "arquivo": "av-francisco-galassi-planta-terreo.webp"
+  },
+  {
+    "slug": "av-francisco-galassi",
+    "arquivo": "av-francisco-galassi.webp"
+  },
+  {
+    "slug": "av-guilherme-ferreira-planta-1-pavimento",
+    "arquivo": "av-guilherme-ferreira-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "av-guilherme-ferreira-planta-terreo",
+    "arquivo": "av-guilherme-ferreira-planta-terreo.webp"
+  },
+  {
+    "slug": "av-guilherme-ferreira",
+    "arquivo": "av-guilherme-ferreira.webp"
+  },
+  {
+    "slug": "av-joao-naves-2",
+    "arquivo": "av-joao-naves-2.webp"
+  },
+  {
+    "slug": "av-joao-naves-3",
+    "arquivo": "av-joao-naves-3.webp"
+  },
+  {
+    "slug": "av-joao-naves-planta-1-pavimento",
+    "arquivo": "av-joao-naves-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "av-joao-naves-planta-terreo",
+    "arquivo": "av-joao-naves-planta-terreo.webp"
+  },
+  {
+    "slug": "av-joao-naves",
+    "arquivo": "av-joao-naves.webp"
+  },
+  {
+    "slug": "av-maranhao-2",
+    "arquivo": "av-maranhao-2.webp"
+  },
+  {
+    "slug": "av-maranhao-planta-1-pavimento",
+    "arquivo": "av-maranhao-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "av-maranhao-planta-terreo",
+    "arquivo": "av-maranhao-planta-terreo.webp"
+  },
+  {
+    "slug": "av-maranhao",
+    "arquivo": "av-maranhao.webp"
+  },
+  {
+    "slug": "av-monsenhor-eduardo-2",
+    "arquivo": "av-monsenhor-eduardo-2.webp"
+  },
+  {
+    "slug": "av-monsenhor-eduardo-planta-1-pavimento",
+    "arquivo": "av-monsenhor-eduardo-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "av-monsenhor-eduardo-planta-terreo",
+    "arquivo": "av-monsenhor-eduardo-planta-terreo.webp"
+  },
+  {
+    "slug": "av-monsenhor-eduardo",
+    "arquivo": "av-monsenhor-eduardo.webp"
+  },
+  {
+    "slug": "av-vinhedos-2",
+    "arquivo": "av-vinhedos-2.webp"
+  },
+  {
+    "slug": "av-vinhedos-planta-1-pavimento",
+    "arquivo": "av-vinhedos-planta-1-pavimento.webp"
+  },
+  {
+    "slug": "av-vinhedos-planta-terreo",
+    "arquivo": "av-vinhedos-planta-terreo.webp"
+  },
+  {
+    "slug": "av-vinhedos-terreo-vista-superior",
+    "arquivo": "av-vinhedos-terreo-vista-superior.webp"
+  },
+  {
+    "slug": "av-vinhedos",
+    "arquivo": "av-vinhedos.webp"
+  },
+  {
+    "slug": "bluemall-aerea",
+    "arquivo": "bluemall-aerea.webp"
+  },
+  {
     "slug": "bluemall-centro",
     "arquivo": "bluemall-centro.webp"
+  },
+  {
+    "slug": "bluemall-entrada",
+    "arquivo": "bluemall-entrada.webp"
+  },
+  {
+    "slug": "bluemall-esquina",
+    "arquivo": "bluemall-esquina.webp"
+  },
+  {
+    "slug": "bluemall-estacionamento",
+    "arquivo": "bluemall-estacionamento.webp"
+  },
+  {
+    "slug": "bluemall-fachada",
+    "arquivo": "bluemall-fachada.webp"
+  },
+  {
+    "slug": "bluemall-frente",
+    "arquivo": "bluemall-frente.webp"
+  },
+  {
+    "slug": "bluemall-lojas",
+    "arquivo": "bluemall-lojas.webp"
+  },
+  {
+    "slug": "bluemall-noturna",
+    "arquivo": "bluemall-noturna.webp"
+  },
+  {
+    "slug": "bluemall-planta-pavimento-superior",
+    "arquivo": "bluemall-planta-pavimento-superior.webp"
+  },
+  {
+    "slug": "bluemall-planta-terreo",
+    "arquivo": "bluemall-planta-terreo.webp"
   },
   {
     "slug": "bluemall",
     "arquivo": "bluemall.webp"
   },
   {
-    "slug": "mall-silvio-rugani",
-    "arquivo": "mall-silvio-rugani.webp"
+    "slug": "mall-tubalina",
+    "arquivo": "mall-tubalina.webp"
   },
   {
-    "slug": "nv-boulevard-aerea",
-    "arquivo": "nv-boulevard-aerea.webp"
+    "slug": "patio-cajuba-deck",
+    "arquivo": "patio-cajuba-deck.webp"
   },
   {
-    "slug": "nv-boulevard-area-gourmet",
-    "arquivo": "nv-boulevard-area-gourmet.webp"
+    "slug": "patio-cajuba-planta-pavimento-superior",
+    "arquivo": "patio-cajuba-planta-pavimento-superior.webp"
   },
   {
-    "slug": "nv-boulevard-boulevard-pessoas",
-    "arquivo": "nv-boulevard-boulevard-pessoas.webp"
+    "slug": "patio-cajuba-planta-terreo",
+    "arquivo": "patio-cajuba-planta-terreo.webp"
   },
   {
-    "slug": "nv-boulevard-boulevard",
-    "arquivo": "nv-boulevard-boulevard.webp"
+    "slug": "patio-cajuba-totem",
+    "arquivo": "patio-cajuba-totem.webp"
   },
   {
-    "slug": "nv-boulevard-espelho-dagua",
-    "arquivo": "nv-boulevard-espelho-dagua.webp"
-  },
-  {
-    "slug": "nv-boulevard-estacionamento",
-    "arquivo": "nv-boulevard-estacionamento.webp"
-  },
-  {
-    "slug": "nv-boulevard-fachada-lateral",
-    "arquivo": "nv-boulevard-fachada-lateral.webp"
-  },
-  {
-    "slug": "nv-boulevard-implantacao",
-    "arquivo": "nv-boulevard-implantacao.webp"
-  },
-  {
-    "slug": "nv-boulevard-lojas",
-    "arquivo": "nv-boulevard-lojas.webp"
-  },
-  {
-    "slug": "nv-boulevard",
-    "arquivo": "nv-boulevard.webp"
-  },
-  {
-    "slug": "patio-sabia-calcadao",
-    "arquivo": "patio-sabia-calcadao.webp"
-  },
-  {
-    "slug": "patio-sabia-circulacao",
-    "arquivo": "patio-sabia-circulacao.webp"
-  },
-  {
-    "slug": "patio-sabia-gastronomia",
-    "arquivo": "patio-sabia-gastronomia.webp"
-  },
-  {
-    "slug": "patio-sabia-lojas",
-    "arquivo": "patio-sabia-lojas.webp"
-  },
-  {
-    "slug": "patio-sabia-mercado",
-    "arquivo": "patio-sabia-mercado.webp"
-  },
-  {
-    "slug": "patio-sabia-mercatto",
-    "arquivo": "patio-sabia-mercatto.webp"
-  },
-  {
-    "slug": "patio-sabia-praca-alimentacao",
-    "arquivo": "patio-sabia-praca-alimentacao.webp"
-  },
-  {
-    "slug": "patio-sabia",
-    "arquivo": "patio-sabia.webp"
+    "slug": "patio-cajuba",
+    "arquivo": "patio-cajuba.webp"
   },
   {
     "slug": "piazza-nicomedes-convivencia",
@@ -118,6 +266,38 @@
   {
     "slug": "piazza-nicomedes",
     "arquivo": "piazza-nicomedes.webp"
+  },
+  {
+    "slug": "quadra-d-2",
+    "arquivo": "quadra-d-2.webp"
+  },
+  {
+    "slug": "quadra-d-3",
+    "arquivo": "quadra-d-3.webp"
+  },
+  {
+    "slug": "quadra-d-4",
+    "arquivo": "quadra-d-4.webp"
+  },
+  {
+    "slug": "quadra-d-5",
+    "arquivo": "quadra-d-5.webp"
+  },
+  {
+    "slug": "quadra-d-centro-de-quadra-vista-superior",
+    "arquivo": "quadra-d-centro-de-quadra-vista-superior.webp"
+  },
+  {
+    "slug": "quadra-d-planta-centro-de-quadra",
+    "arquivo": "quadra-d-planta-centro-de-quadra.webp"
+  },
+  {
+    "slug": "quadra-d-planta-fracionamento",
+    "arquivo": "quadra-d-planta-fracionamento.webp"
+  },
+  {
+    "slug": "quadra-d",
+    "arquivo": "quadra-d.webp"
   },
   {
     "slug": "uberlandia-shopping",

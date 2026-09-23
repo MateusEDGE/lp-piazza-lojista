@@ -1,51 +1,105 @@
-nome: Av. Maranhão
-temLandingPage: false
+nome: Mall Av. Maranhão
+temLandingPage: true
 status: desenvolvimento
 categoria: strip-mall
 ordem: 12
 cidade: Uberaba/MG
 zona: ''
 tiposOperacao:
-  - academia
-  - auto-center
-  - banco
-  - clinica
-  - concessionaria
-  - educacao
-  - entretenimento
-  - escritorio
+  - supermercado
   - farmacia
-  - fast-food
-  - home-center
+  - academia
   - restaurante
-atuacao: []
+  - varejo
+  - servicos
+atuacao:
+  - desenvolvimento
+  - curadoria-mix
+  - comercializacao
 localizacao: Vila Santa Inês, Uberaba/MG
-resumoCard: Strip mall em desenvolvimento em Uberaba.
-destaque: ''
-copy: ''
-papelNexa: ''
+resumoCard: >-
+  Strip mall em desenvolvimento na esquina da Av. Maranhão com a Av. Santa Beatriz da Silva, em
+  Uberaba, com 4.700 m² de ABL, supermercado, farmácia e academia como âncoras e 102 vagas.
+destaque: Supermercado, farmácia e academia como âncoras
+copy: >-
+  Terreno de 6.733 m² na esquina da Av. Maranhão com a Av. Santa Beatriz da Silva, eixo comercial
+  de Uberaba com acesso nos dois sentidos, do shopping e do aeroporto, e retorno pela própria
+  Av. Maranhão. O estudo de massa prevê 4.725 m² de ABL em dois pavimentos e 102 vagas de
+  estacionamento no térreo.
+
+
+  No térreo, supermercado de 1.360 m², farmácia de 370 m², restaurante e nove lojas de 75 a 98 m².
+  No primeiro pavimento, academia de 1.360 m² e três lojas de 201 a 495 m² completam um mix de
+  abastecimento, saúde e conveniência para a região.
+ancoras: Supermercado, farmácia e academia
+papelNexa: >-
+  Estudo de vocação, estudo de massa e viabilidade, estruturação do negócio e seleção das
+  operações antes da obra.
 fichaTecnica:
-  terreno: ''
-  abl: ''
-  operacoes: ''
-  vagas: ''
-  mix: ''
-numerosDestaque: []
-mixOperacoes: []
-imagemCard: null
-imagemHero: null
-galeria: []
-endereco: Av. Maranhão, Vila Santa Inês, Uberaba/MG
+  terreno: 6.733 m²
+  abl: 4.725 m²
+  operacoes: '16'
+  vagas: '102'
+  mix: Supermercado, farmácia, academia, restaurante e lojas de conveniência
+  extras:
+    - label: Aproveitamento
+      valor: 70%
+numerosDestaque:
+  - valor: '4725'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de ABL em dois pavimentos
+  - valor: '16'
+    prefixo: ''
+    sufixo: ''
+    label: operações previstas
+  - valor: '102'
+    prefixo: ''
+    sufixo: ''
+    label: vagas de estacionamento
+  - valor: '1360'
+    prefixo: ''
+    sufixo: ' m²'
+    label: de supermercado como âncora
+tituloMix: Mix de operações previsto
+mixOperacoes:
+  - pavimento: Térreo
+    categoria: Supermercado e farmácia
+    detalhe: Âncoras de 1.360 m² e 370 m² (15 x 25 m) com frente para a avenida
+  - pavimento: Térreo
+    categoria: Restaurante e lojas satélites
+    detalhe: Duas lojas de 97,5 m² (7,5 x 13 m) e sete de 75 m² (5 x 15 m)
+  - pavimento: 1º Pavimento
+    categoria: Academia e lojas maiores
+    detalhe: Academia de 1.360 m² e três lojas de 201, 219 e 495 m²
+imagemCard: /images/empreendimentos/av-maranhao.webp
+imagemHero: /images/empreendimentos/av-maranhao.webp
+galeria:
+  - imagem: /images/empreendimentos/av-maranhao.webp
+    legenda: Fachada para a Av. Santa Beatriz da Silva
+    video: null
+  - imagem: /images/empreendimentos/av-maranhao-2.webp
+    legenda: Vista da esquina com a Av. Maranhão
+    video: null
+  - imagem: /images/empreendimentos/av-maranhao-planta-terreo.webp
+    legenda: Planta do térreo
+    video: null
+  - imagem: /images/empreendimentos/av-maranhao-planta-1-pavimento.webp
+    legenda: Planta do 1º pavimento
+    video: null
+endereco: Av. Maranhão esq. Av. Santa Beatriz da Silva, Vila Santa Inês, Uberaba/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-19.758324,-47.948813&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo
 secoes:
-  mostrarFicha: false
-  mostrarMix: false
-  mostrarGaleria: false
-  mostrarLocalizacao: false
-whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse na Av. Maranhão.
+  mostrarFicha: true
+  mostrarMix: true
+  mostrarGaleria: true
+  mostrarLocalizacao: true
+whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no Mall Av. Maranhão.
 seo:
-  metaTitle: Av. Maranhão
-  metaDescription: Strip mall em desenvolvimento em Uberaba.
+  metaTitle: Mall Av. Maranhão, strip mall em desenvolvimento em Uberaba
+  metaDescription: >-
+    4.725 m² de ABL em dois pavimentos na esquina da Av. Maranhão com a Av. Santa Beatriz da Silva,
+    Uberaba: supermercado, farmácia, academia, restaurante e 12 lojas, com 102 vagas.
