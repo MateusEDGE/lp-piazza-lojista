@@ -92,8 +92,8 @@ galeria:
   - imagem: /images/empreendimentos/alameda-carioca-planta-subsolo.webp
     legenda: Planta do subsolo (95 vagas)
     video: null
-endereco: Rua da Carioca, Uberlândia/MG
-mapaEmbedUrl: https://www.google.com/maps?q=Rua+da+Carioca%2C+Uberl%C3%A2ndia%2C+MG&output=embed
+endereco: Rua da Carioca, 707, Uberlândia/MG
+mapaEmbedUrl: https://www.google.com/maps?q=Rua+da+Carioca%2C+707%2C+Uberl%C3%A2ndia%2C+MG&output=embed
 arte:
   accentColor: bronze
   heroVariant: imersivo

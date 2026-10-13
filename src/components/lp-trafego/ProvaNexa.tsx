@@ -15,9 +15,9 @@ export type Entrega = {
  *
  * A objeção real de quem compra ponto ou participação em empreendimento na
  * planta não é o projeto: é a chance de inaugurar vazio. A resposta não é
- * adjetivo, é a taxa de ocupação dos ativos que a Nexa já opera, e ela vem do
- * CMS — o `destaque` de cada empreendimento em operação. Se o número mudar lá,
- * muda aqui.
+ * adjetivo, é a taxa de ocupação dos ativos que já abriram, e ela vem do
+ * CMS — o `destaque` de cada empreendimento que fala de ocupação (ver
+ * `getEntregas`). Se o número mudar lá, muda aqui.
  *
  * A faixa de logos das marcas atendidas fica em seção própria, a seguir: ela
  * precisa de fundo claro (metade dos logos é escura) e o assunto é outro —

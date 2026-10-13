@@ -91,7 +91,7 @@ galeria:
   - imagem: /images/empreendimentos/av-guilherme-ferreira-planta-1-pavimento.webp
     legenda: Planta do 1º pavimento
     video: null
-endereco: Av. Guilherme Ferreira, Cidade Jardim, Uberaba/MG
+endereco: Av. Guilherme Ferreira, 1440, Cidade Jardim, Uberaba/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-19.762572,-47.935729&output=embed
 arte:
   accentColor: bronze

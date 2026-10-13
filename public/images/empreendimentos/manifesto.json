@@ -56,26 +56,6 @@
     "arquivo": "alta-mall.webp"
   },
   {
-    "slug": "av-francisco-galassi-2",
-    "arquivo": "av-francisco-galassi-2.webp"
-  },
-  {
-    "slug": "av-francisco-galassi-3",
-    "arquivo": "av-francisco-galassi-3.webp"
-  },
-  {
-    "slug": "av-francisco-galassi-4",
-    "arquivo": "av-francisco-galassi-4.webp"
-  },
-  {
-    "slug": "av-francisco-galassi-planta-terreo",
-    "arquivo": "av-francisco-galassi-planta-terreo.webp"
-  },
-  {
-    "slug": "av-francisco-galassi",
-    "arquivo": "av-francisco-galassi.webp"
-  },
-  {
     "slug": "av-guilherme-ferreira-planta-1-pavimento",
     "arquivo": "av-guilherme-ferreira-planta-1-pavimento.webp"
   },
@@ -256,6 +236,26 @@
     "arquivo": "piazza-nicomedes-perspectiva.webp"
   },
   {
+    "slug": "piazza-nicomedes-planta-primeiro-pavimento",
+    "arquivo": "piazza-nicomedes-planta-primeiro-pavimento.webp"
+  },
+  {
+    "slug": "piazza-nicomedes-planta-semi-enterrado",
+    "arquivo": "piazza-nicomedes-planta-semi-enterrado.webp",
+    "largura": 1776,
+    "altura": 1332
+  },
+  {
+    "slug": "piazza-nicomedes-planta-subsolo",
+    "arquivo": "piazza-nicomedes-planta-subsolo.webp",
+    "largura": 1740,
+    "altura": 1305
+  },
+  {
+    "slug": "piazza-nicomedes-planta-terreo",
+    "arquivo": "piazza-nicomedes-planta-terreo.webp"
+  },
+  {
     "slug": "piazza-nicomedes-praca",
     "arquivo": "piazza-nicomedes-praca.webp"
   },
@@ -266,38 +266,6 @@
   {
     "slug": "piazza-nicomedes",
     "arquivo": "piazza-nicomedes.webp"
-  },
-  {
-    "slug": "quadra-d-2",
-    "arquivo": "quadra-d-2.webp"
-  },
-  {
-    "slug": "quadra-d-3",
-    "arquivo": "quadra-d-3.webp"
-  },
-  {
-    "slug": "quadra-d-4",
-    "arquivo": "quadra-d-4.webp"
-  },
-  {
-    "slug": "quadra-d-5",
-    "arquivo": "quadra-d-5.webp"
-  },
-  {
-    "slug": "quadra-d-centro-de-quadra-vista-superior",
-    "arquivo": "quadra-d-centro-de-quadra-vista-superior.webp"
-  },
-  {
-    "slug": "quadra-d-planta-centro-de-quadra",
-    "arquivo": "quadra-d-planta-centro-de-quadra.webp"
-  },
-  {
-    "slug": "quadra-d-planta-fracionamento",
-    "arquivo": "quadra-d-planta-fracionamento.webp"
-  },
-  {
-    "slug": "quadra-d",
-    "arquivo": "quadra-d.webp"
   },
   {
     "slug": "uberlandia-shopping",

@@ -78,6 +78,18 @@ galeria:
   - imagem: /images/empreendimentos/piazza-nicomedes-praca.webp
     legenda: Praça de alimentação
     video: null
+  - imagem: /images/empreendimentos/piazza-nicomedes-planta-primeiro-pavimento.webp
+    legenda: Planta do primeiro pavimento · Saúde e bem-estar
+    video: null
+  - imagem: /images/empreendimentos/piazza-nicomedes-planta-terreo.webp
+    legenda: Planta do térreo · Serviços
+    video: null
+  - imagem: /images/empreendimentos/piazza-nicomedes-planta-semi-enterrado.webp
+    legenda: Planta do semi-enterrado · Gastronomia
+    video: null
+  - imagem: /images/empreendimentos/piazza-nicomedes-planta-subsolo.webp
+    legenda: Planta do subsolo · Estacionamento
+    video: null
   - imagem: /images/empreendimentos/piazza-nicomedes-convivencia.webp
     legenda: Área de convivência
     video: null

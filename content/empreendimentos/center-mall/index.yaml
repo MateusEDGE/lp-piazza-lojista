@@ -12,7 +12,7 @@ tiposOperacao:
   - restaurante
   - varejo
 atuacao: []
-localizacao: Jardim Patrícia, Uberlândia/MG
+localizacao: Luizote de Freitas, Uberlândia/MG
 resumoCard: Strip mall em operação em Uberlândia.
 destaque: ''
 copy: ''
@@ -28,7 +28,7 @@ mixOperacoes: []
 imagemCard: null
 imagemHero: null
 galeria: []
-endereco: Av. José Fonseca e Silva, Jardim Patrícia, Uberlândia/MG
+endereco: Av. José Fonseca e Silva, 324, Luizote de Freitas, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.915373,-48.3285057&output=embed
 arte:
   accentColor: bronze

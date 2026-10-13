@@ -1,5 +1,6 @@
 import { LpThemeProvider } from "@/components/lp/LpThemeProvider";
 import { NexaBackdrop } from "@/components/ui/NexaBackdrop";
+import { tipoResultado } from "@/lib/empreendimentos";
 import { faqJsonLd, shoppingCenterJsonLd } from "@/lib/jsonld";
 import { getEmpreendimentos, getMarcasColoridas, reader } from "@/lib/reader";
 import { Beneficios } from "./Beneficios";
@@ -148,11 +149,17 @@ export async function PaginaLpTrafego({
 }
 
 /**
- * Os ativos que a Nexa já opera, com a ocupação que cada um entregou.
+ * Os ativos que já abriram, com a ocupação que cada um entregou.
  *
  * É a resposta à objeção de quem compra na planta: o risco não é o projeto, é
- * inaugurar vazio. Vem do CMS, do `destaque` de cada empreendimento em gestão —
- * se o número mudar lá, muda aqui.
+ * inaugurar vazio. Vem do CMS, do `destaque` de cada empreendimento — se o
+ * número mudar lá, muda aqui.
+ *
+ * **O critério é o destaque falar de ocupação, não a fase.** Até 30/09/2026 o
+ * filtro era `status === "operacao"`, que no site significa Gestão de Ativos.
+ * Naquele dia o cliente tirou o Bluemall e o Uberlândia Shopping desse pilar
+ * (a Nexa comercializou, não gere), e pela fase a prova cairia de três cards
+ * para um. A ocupação que eles entregaram continua sendo resultado da casa.
  *
  * **Só entra quem tem número.** A seção existe para provar entrega, e um card
  * com nome e cidade e mais nada não prova coisa nenhuma: enfraquece os que
@@ -169,9 +176,7 @@ const ENTREGAS_NA_PROVA = 3;
 export async function getEntregas(): Promise<Entrega[]> {
   const todos = await getEmpreendimentos();
   return todos
-    .filter(
-      ({ entry }) => entry.status === "operacao" && entry.destaque.trim(),
-    )
+    .filter(({ entry }) => tipoResultado(entry.destaque) === "Ocupação")
     .slice(0, ENTREGAS_NA_PROVA)
     .map(({ slug, entry }) => ({
       slug,

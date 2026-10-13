@@ -100,7 +100,7 @@ galeria:
   - imagem: /images/empreendimentos/av-joao-naves-planta-1-pavimento.webp
     legenda: Planta do 1º pavimento (proposta sem drive-thru)
     video: null
-endereco: Av. João Naves de Ávila, Santa Mônica, Uberlândia/MG
+endereco: Av. João Naves de Ávila, 5215, Santa Mônica, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.929708,-48.241770&output=embed
 arte:
   accentColor: bronze

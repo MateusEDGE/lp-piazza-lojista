@@ -1,6 +1,6 @@
 nome: Uberlândia Shopping
 temLandingPage: true
-status: operacao
+status: comercializacao
 categoria: hub-servicos
 ordem: 3
 cidade: Uberlândia/MG
@@ -11,7 +11,6 @@ tiposOperacao:
   - coworking
   - educacao
 atuacao:
-  - desenvolvimento
   - comercializacao
 localizacao: Uberlândia/MG
 resumoCard: >-
@@ -23,16 +22,16 @@ copy: >-
   principais destinos de compras e serviços da região.
 
 
-  A Nexa foi contratada para criar um HUB de serviços dentro do empreendimento, voltado para
-  serviços, office, consultórios, clínicas, coworking e ensino, ampliando a vocação do shopping
-  para além do varejo e gerando fluxo qualificado todos os dias.
+  A Nexa comercializa o HUB de serviços do empreendimento, voltado para office, consultórios,
+  clínicas, coworking e ensino, que amplia a vocação do shopping para além do varejo e gera
+  fluxo qualificado todos os dias.
 
 
   São 3.000 m² dedicados a serviços que vivem de recorrência, o tipo de operação que traz a
   mesma pessoa de volta várias vezes por mês.
 papelNexa: >-
-  Criação e estruturação do HUB de serviços do empreendimento: office, consultórios, clínicas,
-  coworking e ensino.
+  Comercialização das unidades do HUB de serviços do empreendimento: office, consultórios,
+  clínicas, coworking e ensino.
 fichaTecnica:
   terreno: 130.000 m²
   abl: 53.000 m²
@@ -59,7 +58,7 @@ modelosEntrada:
   - titulo: Lojista
     descricao: >-
       Abra a sua operação no hub de serviços do shopping: office, consultórios, clínicas,
-      coworking e ensino, em 3.000 m² com mix curado pela Nexa.
+      coworking e ensino, em 3.000 m² comercializados pela Nexa.
     link: /empreendimentos/uberlandia-shopping/lojista
 mixOperacoes:
   - pavimento: ''
@@ -92,7 +91,7 @@ secoes:
   mostrarLocalizacao: true
 whatsappMensagem: Olá! Vim pelo site da Nexa Malls e tenho interesse no HUB de serviços do Uberlândia Shopping.
 seo:
-  metaTitle: Uberlândia Shopping, HUB de serviços by Nexa
+  metaTitle: HUB de serviços do Uberlândia Shopping
   metaDescription: >-
     HUB de serviços dentro do Uberlândia Shopping: office, consultórios, clínicas, coworking e
     ensino em um empreendimento com 190 lojas e 95% de ocupação.

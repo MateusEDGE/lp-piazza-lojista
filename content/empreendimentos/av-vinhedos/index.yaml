@@ -93,7 +93,7 @@ galeria:
   - imagem: /images/empreendimentos/av-vinhedos-planta-1-pavimento.webp
     legenda: Planta do 1º pavimento
     video: null
-endereco: Av. dos Vinhedos, Morada da Colina, Uberlândia/MG
+endereco: Av. dos Vinhedos, 600, Morada da Colina, Uberlândia/MG
 mapaEmbedUrl: https://www.google.com/maps?q=-18.951145,-48.278869&output=embed
 arte:
   accentColor: bronze
